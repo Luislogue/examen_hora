@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="static/css/style.css">
+   <title>Hora</title>
+</head>
+   <div class="container">
+      <header>
+         <h1>
+            Hora
+         </h1>
+      </header>
+   </div>
+   <body>
+   <div class="container">
+      <div class="content">
+      <form action = "result" method = "POST" name="form" class="formulario">
+         <label>Ciudad</label>        
+         <select name="ciudad">
+            <option value="Palma">Palma</option>
+            <option value="Llucmajor">Llucmajor</option>
+            <option value="Inca">Inca</option>
+            <option value="Sineu">Sineu</option>
+            <option value="Calvia">Calvia</option>
+         </select>
+         <label>Fecha </label>
+         <input type ="date" name ="fecha"/>
+         <label>Valor</label>
+         <input type = "number" name = "precio" />
+         
+         <input type = "submit" value = "submit" class="boton"/>
+         <button type="button" class="boton"><a href="result.html">Ver tickets</a></button>
+      </form>
+   </div>
+   </div>
+   </body>
+</html>

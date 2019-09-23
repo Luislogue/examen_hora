@@ -1,0 +1,45 @@
+html{
+    font-family: sans-serif;
+    background-color: rgb(129, 194, 224);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+}
+.content{
+    background: rgb(191, 241, 233);
+    box-shadow: 3px 5px 8px gray;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-top: 2.5vh;
+    margin: auto;
+    padding: 1.5vh;
+    width: 200px;
+}
+select{
+    margin-top: 2.5vh;
+    margin: auto;
+    padding: 1.5vh;
+    width: 200px;
+}
+label{
+    padding: 2vh;
+    margin: auto;
+}
+header{
+    margin: auto;
+}
+.boton{
+    margin: auto;
+    margin-top: 5vh;
+    width: 75px;
+}
+a{
+    text-decoration: none;
+}
